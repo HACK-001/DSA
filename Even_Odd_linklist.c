@@ -43,7 +43,10 @@ void evenodd(Node** head){
             {
                 evenend->next = curr;
                 evenend = evenend->next;
+
             }  
+
+            }     
         }
         else
         {
