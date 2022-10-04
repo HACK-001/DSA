@@ -38,11 +38,7 @@ void evenodd(Node** head){
                 evenstart = curr;
                 evenend = evenstart;
             }
-            else
-            {
-                evenend->next = curr;
-                evenend = evenend->next;
-            }       
+            //prob     
         }
         else
         {
