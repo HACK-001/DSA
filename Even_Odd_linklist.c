@@ -39,6 +39,11 @@ void evenodd(Node** head){
                 evenend = evenstart;
             }
             //prob     
+            else
+            {
+                evenend->next = curr;
+                evenend = evenend->next;
+            }  
         }
         else
         {
@@ -46,7 +51,7 @@ void evenodd(Node** head){
                 oddstart = curr;
                 oddend = oddstart;
             }
-            //Else Part updated
+           
             else {
                 oddend->next = curr;
                 oddend = oddend->next;
