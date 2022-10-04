@@ -46,6 +46,7 @@ void evenodd(Node** head){
                 oddstart = curr;
                 oddend = oddstart;
             }
+            //updated
             else {
                 oddend->next = curr;
                 oddend = oddend->next;
